@@ -46,7 +46,7 @@ class _UiSettings(BaseSettings):
     chat_logo: Optional[str] = None
     chat_title: str = "Start chatting with ZEISS Internal Document ChatBotPoC"
     chat_description: str = "This chatbot is configured to answer your questions"
-    favicon: str = "/zeiss.ico"
+    favicon: str = "/favicon.ico"
     show_share_button: bool = True
     show_chat_history_button: bool = True
 

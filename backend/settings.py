@@ -44,9 +44,9 @@ class _UiSettings(BaseSettings):
     title: str = "Zeiss your own data"
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
-    chat_title: str = "Start chatting with ZEISS Internal Document ChatBotPoC"
+    chat_title: str = "Start chatting with ZEISS Internal Document ChatBot PoC"
     chat_description: str = "This chatbot is configured to answer your questions"
-    favicon: str = "/zeiss.ico"
+    zeiss: str = "/zeiss.ico"
     show_share_button: bool = True
     show_chat_history_button: bool = True
 
